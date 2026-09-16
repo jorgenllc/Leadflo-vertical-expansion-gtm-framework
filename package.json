@@ -1,19 +1,25 @@
 {
-  "name": "leadflo-vertical-expansion-gtm-framework",
-  "version": "1.0.0",
+  "name": "leadflo-sales-enablement",
   "private": true,
+  "version": "2.0.0",
   "type": "module",
+  "description": "Leadflo — sales-enablement workspace for home-services GTM. Live Close CRM integration with GAP / SPIN / Challenger methodology switching.",
   "scripts": {
     "dev": "vite",
-    "build": "vite build",
-    "preview": "vite preview"
+    "build": "tsc -b && vite build",
+    "preview": "vite preview",
+    "typecheck": "tsc -b --noEmit"
   },
   "dependencies": {
     "react": "^18.3.1",
     "react-dom": "^18.3.1"
   },
   "devDependencies": {
-    "@vitejs/plugin-react": "^4.3.1",
-    "vite": "^5.4.2"
+    "@types/node": "^22.7.5",
+    "@types/react": "^18.3.11",
+    "@types/react-dom": "^18.3.1",
+    "@vitejs/plugin-react": "^4.3.2",
+    "typescript": "^5.6.3",
+    "vite": "^5.4.9"
   }
 }

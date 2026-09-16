@@ -1,4 +1,9 @@
 node_modules
 dist
+preview.html
 .env
 .env.local
+.vercel
+.DS_Store
+*.log
+tsconfig.tsbuildinfo
